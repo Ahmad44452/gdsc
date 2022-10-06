@@ -1,0 +1,125 @@
+.team{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  // background-color: #1e1e1e;
+  background-color: #f5f5f7;
+  padding: 5rem 0;
+
+  &__heading{
+    text-align: center;
+    font-size: 7rem;
+    font-weight: 500;
+    color: #666D74;
+    // color: #666D74;
+    padding-top: 3rem;
+    display: block;
+    
+  }
+
+  &__cards{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    
+  }
+
+  &__card{
+    background-color: #fff;
+    display: inline-block;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0px 0px 50px #666D7426;
+    border-radius: 2.4rem;
+    box-shadow: 0px 0px 50px #666D7426;
+    background-color: #fff;
+    margin-top: 15rem;
+    // padding-top: 10rem;
+
+
+    &--img{
+      max-width: 25rem;
+      max-height: 25rem;
+      border-radius: 100%;
+      overflow: hidden;
+      padding: 1rem;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(-50%);
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      box-shadow: 0px 5px 10px #00000029;
+
+      img{
+        width: 100%;
+        border-radius: 100%;
+        // overflow: hidden;
+      }
+    }
+
+    &--name{
+      font-weight: 900;
+      font-size: 3.5rem;
+      color: rgba(#101010,70%);
+      text-align: center;
+      margin: 10rem 0 0 0;
+    }
+
+    &--role{
+      font-family: 'open sans',sans-serif;
+      color: rgba(#101010,70%);
+      text-align: center;
+      font-size: 2.4rem;
+      margin: 1rem 0 3rem 0;
+    }
+
+    &--links{
+      display: flex;
+    }
+
+    &--link{
+      &:link,&:visited{
+        color: rgba(#101010,70%);
+        text-decoration: none;
+      }
+
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+      border-radius: 15px;
+      font-size: 2rem;
+      padding: .5rem 2rem .5rem .5rem;
+      -webkit-tap-highlight-color: transparent;
+      &:not(:last-child){
+        margin-right: 1.5rem;
+      }
+
+
+      &-linkedin{
+        background-color: rgba(#007AB9,10%);
+      }
+
+      &-github{
+        background-color: rgba(#000000,10%);
+      }
+
+      &-twitter{
+        background-color: rgba(#03A9F4,10%);
+      }
+
+      img{
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-right: .8rem;
+      }
+    }
+  }
+
+}

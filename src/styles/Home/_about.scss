@@ -1,0 +1,89 @@
+.about{
+  min-height: 100vh;
+  background-image: url('../../images/aboutBG.svg');
+  // background-color: #E3F2FD;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  
+  &__heading{
+    text-align: center;
+    font-size: 7rem;
+    color: #fff;
+    font-weight: 500;
+    // color: #666D74;
+    padding-top: 5rem;
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  &__cards{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__card{
+    background-color: #fff;
+    text-align: center;
+    padding: 2rem 3rem;
+    border-radius: 1.3rem;
+    max-width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
+    // &--1-image{
+    //   background-color: rgba($color: #EA4335, $alpha: 0.15);
+    // }
+
+    // &--2-image{
+    //   background-color: rgba($color: #D958D0, $alpha: 0.15);
+    // }
+
+    // &--3-image{
+    //   background-color: rgba($color: #43A779, $alpha: 0.15);
+    // }
+
+    &--image{
+      padding: 3rem;
+      // border-radius: 100%;
+      display: inline-block;
+      margin: 2rem 0;
+      
+      
+      img{
+        width: 100%;
+      }
+
+      svg{  
+        width: 7rem;
+        height: 7rem;
+      }
+    }
+
+    &--heading{
+      
+      font-size: 2.5rem;
+      font-weight: 400;
+      color: #666D74;
+    }
+
+    &--text{
+      font-family: 'open sans',sans-serif;
+      font-size: 2.2rem;
+      font-weight: 300;
+      text-align: justify;
+      text-align-last: center;
+    }
+  }
+}
