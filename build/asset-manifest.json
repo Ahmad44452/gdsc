@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5bfc66f.css",
+    "main.js": "/static/js/main.ddc20217.js",
+    "static/media/GoogleSans-BoldItalic.ttf": "/static/media/GoogleSans-BoldItalic.afe977f432a7522f2c07.ttf",
+    "static/media/GoogleSans-Italic.ttf": "/static/media/GoogleSans-Italic.ead46b61d8b984c9a56a.ttf",
+    "static/media/GoogleSans-MediumItalic.ttf": "/static/media/GoogleSans-MediumItalic.0f98f085f4815a47cd12.ttf",
+    "static/media/GoogleSans-Medium.ttf": "/static/media/GoogleSans-Medium.81067d78370e5509b889.ttf",
+    "static/media/GoogleSans-Regular.ttf": "/static/media/GoogleSans-Regular.19c78e33fc3a7243f219.ttf",
+    "static/media/GoogleSans-Bold.ttf": "/static/media/GoogleSans-Bold.18cab8ca4b802f600b69.ttf",
+    "static/media/building-bg.svg": "/static/media/building-bg.e004ef234aaf19bc52b719e67de1fdfe.svg",
+    "static/media/communityImg.svg": "/static/media/communityImg.9b1e6a1669a363861c02a22bb07c3e7a.svg",
+    "static/media/swagsImg.svg": "/static/media/swagsImg.15f85a35519ac6fda4f793b54c590c2d.svg",
+    "static/media/connectImg.svg": "/static/media/connectImg.08681c0d23e14f72f32307a210e1aff3.svg",
+    "static/media/solutionsImg.svg": "/static/media/solutionsImg.6f8502915d205ca2131fb96454234ea1.svg",
+    "static/media/calendar.svg": "/static/media/calendar.b3031a8d6195bc7c0fdf40c7a72a922e.svg",
+    "index.html": "/index.html",
+    "static/media/marker.svg": "/static/media/marker.ff2a86cd31bb26530d9f3ee3c1318cdb.svg",
+    "static/media/clock.svg": "/static/media/clock.c5e906e8e83433f15d8a9c1a82973287.svg",
+    "main.e5bfc66f.css.map": "/static/css/main.e5bfc66f.css.map",
+    "main.ddc20217.js.map": "/static/js/main.ddc20217.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5bfc66f.css",
+    "static/js/main.ddc20217.js"
+  ]
+}
