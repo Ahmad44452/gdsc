@@ -22,7 +22,6 @@ import { cardAnimation } from './Home/Team';
 
 const TeamCard = ({ pfp, name, role, linkedin, github, twitter }) => {
 
-
   return (
     <motion.div className="team__card" variants={cardAnimation}>
       <div className="team__card--img">

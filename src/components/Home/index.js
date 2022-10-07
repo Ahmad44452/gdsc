@@ -2,6 +2,7 @@ import Header from "./Header";
 import About from "./About";
 import Team from "./Team";
 import Events from "./Events";
+import Sponsors from './Sponsors';
 
 const Home = () => {
 
@@ -11,6 +12,7 @@ const Home = () => {
       <About />
       <Team />
       <Events />
+      <Sponsors />
     </>
   )
 }

@@ -3,17 +3,25 @@
   display: flex;
   flex-direction: column;
   // background-color: #1e1e1e;
-  background-color: #4285f4;
+  // background-color: #4285f4;
   padding: 5rem 0;
+  background-color: #f4f4f4;
 
   &__heading{
+    display: inline-block;
     text-align: center;
-    font-size: 7rem;
-    font-weight: 500;
-    color: #fff;
-    // color: #666D74;
-    padding-top: 3rem;
-    display: block;
+    font-size: 6rem;
+    color: #666D74;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 5rem 0 2rem 0;
+    cursor: default;
+    transition: all .2s;
+
+    &:hover{
+      transform: scale(1.1);
+      text-shadow: 0.5rem 1rem 2rem rgb(0 0 0 / 20%);
+    }
   }
 
   &__cards{
@@ -31,11 +39,10 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: #F5F5F5;
-    border-radius: 20px;
+    background-color: #fff;
+    border-radius: 2.5rem;
     box-shadow: 0px 0px 50px #666D7426;
     margin: 2rem;
-    overflow: hidden;
 
     &--img{
       
@@ -45,15 +52,12 @@
     }
 
     &--info{
-      margin: 2rem 0;
       background-color: #fff;
-      box-shadow: 0px 0px 50px #666D7426;
-      border-radius: 10px;
-      border: 1px solid #E4E4E4;
+      margin: 2rem 0 1rem 0;
 
       &-up{
         display: flex;
-        
+        margin-bottom: .5rem;
       }
     }
 
@@ -62,6 +66,8 @@
       display: flex;
       align-items: center;
       padding: 1rem;
+      background-color: #FFEBEE;
+      border-radius: 2rem;
       
       img{
         width: 18px;
@@ -81,8 +87,10 @@
       flex-grow: 1;
       display: flex;
       align-items: center;
-      border-left: 1px solid #E4E4E4;
       padding: 1rem;
+      background-color: #E3F2FD;
+      border-radius: 2rem;
+      margin-left: .5rem;
 
       img{
         width: 18px;
@@ -101,8 +109,9 @@
       flex-grow: 1;
       display: flex;
       align-items: center;
-      border-top: 1px solid #E4E4E4;
       padding: 1rem;
+      background-color: #FFF8E1;
+      border-radius: 2rem;
 
       img{
         width: 18px;
@@ -119,7 +128,6 @@
 
     &--text{
       background-color: #fff;
-      box-shadow: 0px 0px 50px #666D7426;
       border-radius: 10px;
       padding: 1rem;
     }
@@ -160,7 +168,7 @@
       background-color: #fff;
       border: 1px solid #4285f4;
       margin-top: 1rem;
-      border-radius: 10px;
+      border-radius: 2rem;
       font-weight: 500;
       text-transform: uppercase;
       transition: all .5s;

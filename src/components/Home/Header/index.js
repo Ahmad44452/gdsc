@@ -28,10 +28,10 @@ const Header = () => {
 
   return (
     <section id="header" className="header">
-      <motion.img
+      {/* <motion.img
         animate={{ opacity: [0, 1] }}
         transition={{ duration: .5, delay: 2.5 }}
-        src={BackgroundBG} alt='background-building' className='header__bg' />
+        src={BackgroundBG} alt='background-building' className='header__bg' /> */}
 
       <div className="header__container">
         <div className="header__container--left">

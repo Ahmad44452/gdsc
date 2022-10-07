@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 import communityImg from "../../../images/cards/communityImg.svg";
 import connectImg from "../../../images/cards/connectImg.svg";
@@ -31,14 +32,19 @@ const cardAnimation = {
 
 
 const About = () => {
+
+  const [color, setColor] = useState(null);
+
   return (
-    <section id="about" className="about">
+    <section id="about" className={`about about__${color}`}>
       <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, amount: .7 }} transition={{ duration: 1 }}
         className="about__heading">What we do?</motion.h1>
       <motion.div className="about__cards" variants={parentAnim} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.3 }}>
 
 
-        <motion.div className="about__card" variants={cardAnimation}>
+        <motion.div
+          onMouseEnter={() => setColor('blue')} onMouseLeave={() => setColor('null')}
+          className="about__card about__card--blue" variants={cardAnimation}>
           <div>
             <div className="about__card--image">
               <img src={connectImg} alt="connect for card" />
@@ -49,7 +55,9 @@ const About = () => {
 
         </motion.div>
 
-        <motion.div className="about__card" variants={cardAnimation}>
+        <motion.div
+          onMouseEnter={() => setColor('red')} onMouseLeave={() => setColor('null')}
+          className="about__card about__card--red" variants={cardAnimation}>
           <div>
             <div className="about__card--image">
               <img src={communityImg} alt="community for card" />
@@ -61,7 +69,9 @@ const About = () => {
 
 
 
-        <motion.div className="about__card" variants={cardAnimation}>
+        <motion.div
+          onMouseEnter={() => setColor('yellow')} onMouseLeave={() => setColor('null')}
+          className="about__card about__card--yellow" variants={cardAnimation}>
           <div>
             <div className="about__card--image">
               <img src={swagsImg} alt="swags for card" />
@@ -73,7 +83,9 @@ const About = () => {
         </motion.div>
 
 
-        <motion.div className="about__card" variants={cardAnimation}>
+        <motion.div
+          onMouseEnter={() => setColor('green')} onMouseLeave={() => setColor('null')}
+          className="about__card about__card--green" variants={cardAnimation}>
           <div>
             <div className="about__card--image">
               <img src={solutionsImg} alt="solutions for card" />
