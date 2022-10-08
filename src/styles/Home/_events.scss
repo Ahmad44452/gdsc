@@ -154,11 +154,10 @@
     }
 
     &--button{
-      &:link,&:visited{
-        color: #3C71B6;
-        text-decoration: none;
-      }
-
+      
+      color: #3C71B6;
+      text-decoration: none;
+      cursor: pointer;
       text-align: center;
       padding: 1rem 0;
       font-size: 2rem;

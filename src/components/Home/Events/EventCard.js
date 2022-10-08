@@ -3,6 +3,7 @@ import ClockImg from '../../../images/events/clock.svg';
 import MarkerImg from '../../../images/events/marker.svg';
 import { motion } from 'framer-motion';
 
+
 const cardAnimation = {
   initial: {
     opacity: 0,
@@ -53,9 +54,9 @@ const EventCard = () => {
         </p>
       </div>
 
-      <a href='https://www.google.com' target='_blank' rel='noreferrer' className='events__card--button'>
-        Register now
-      </a>
+      <button className='events__card--button'>
+        Register
+      </button>
     </motion.div>
   )
 }

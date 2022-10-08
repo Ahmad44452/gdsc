@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.56dcbc11.css",
-    "main.js": "/static/js/main.7b705263.js",
+    "main.css": "/static/css/main.aa25936e.css",
+    "main.js": "/static/js/main.bf7e61c6.js",
     "static/media/GoogleSans-BoldItalic.ttf": "/static/media/GoogleSans-BoldItalic.afe977f432a7522f2c07.ttf",
     "static/media/GoogleSans-Italic.ttf": "/static/media/GoogleSans-Italic.ead46b61d8b984c9a56a.ttf",
     "static/media/GoogleSans-MediumItalic.ttf": "/static/media/GoogleSans-MediumItalic.0f98f085f4815a47cd12.ttf",
@@ -20,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/marker.svg": "/static/media/marker.ff2a86cd31bb26530d9f3ee3c1318cdb.svg",
     "static/media/clock.svg": "/static/media/clock.c5e906e8e83433f15d8a9c1a82973287.svg",
-    "main.56dcbc11.css.map": "/static/css/main.56dcbc11.css.map",
-    "main.7b705263.js.map": "/static/js/main.7b705263.js.map"
+    "main.aa25936e.css.map": "/static/css/main.aa25936e.css.map",
+    "main.bf7e61c6.js.map": "/static/js/main.bf7e61c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.56dcbc11.css",
-    "static/js/main.7b705263.js"
+    "static/css/main.aa25936e.css",
+    "static/js/main.bf7e61c6.js"
   ]
 }

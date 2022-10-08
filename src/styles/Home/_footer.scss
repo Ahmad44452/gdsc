@@ -108,13 +108,13 @@
     padding: 10rem 0;
 
     &__container{
-      flex-direction: column-reverse;
+      flex-direction: column;
       align-items: center;
     }
 
     &__image{
       margin-right: 0;
-      margin-top: 5rem;
+      margin-bottom: 5rem;
     }
   
     &__right{

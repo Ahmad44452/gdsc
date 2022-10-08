@@ -2,6 +2,7 @@ import GithubIcon from '../../../images/teamicons/github.png';
 import LinkedinIcon from '../../../images/teamicons/linkedin.png';
 import TwitterIcon from '../../../images/teamicons/twitter.png';
 
+
 const TeamCard = ({ pfp, name, role, linkedin, github, twitter }) => {
 
   return (
