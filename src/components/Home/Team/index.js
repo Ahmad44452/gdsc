@@ -84,7 +84,7 @@ const Team = () => {
         >
 
           <TeamCard
-            pfp='https://i.imgur.com/hmaeSRo.jpg'
+            pfp='https://i.imgur.com/ShOgZDa.jpg'
             name='Abdul Raheem'
             role='GDSC Lead'
             linkedin='null'
@@ -93,7 +93,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/qWY1FDL.jpg'
+            pfp='https://i.imgur.com/k9lZGMG.jpg'
             name='Ahmad Raza'
             role='Web Development Lead'
             linkedin='https://www.linkedin.com/in/ahmadraza365/'
@@ -102,7 +102,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/epZ3UIK.jpg'
+            pfp='https://i.imgur.com/h16C25W.jpg'
             name='Ahmad Chaudhary'
             role='Event Management Lead'
             linkedin='https://www.linkedin.com/in/muhammad-ahmad-662835153'
@@ -111,7 +111,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/oYRBR0C.png'
+            pfp='https://i.imgur.com/RQZBPAP.jpg'
             name='Arslan Khalid'
             role='Graphics Lead'
             linkedin='https://www.linkedin.com/in/arslan4real/'
@@ -120,7 +120,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/7p6yjbZ.jpg'
+            pfp='https://i.imgur.com/3Tr8YX8.png'
             name='Habib ur Rehman'
             role='Public Relation Lead'
             linkedin='https://www.linkedin.com/in/hafiz-habib-ur-rehman-021637205'
@@ -129,7 +129,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/CZ4Ot94.jpg'
+            pfp='https://i.imgur.com/iu0RWTg.jpg'
             name='Hamza Ghafoor'
             role='Creative Lead'
             linkedin='https://www.linkedin.com/in/hamza-ghafoor-a2247022a'
@@ -138,7 +138,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/fx25UXy.png'
+            pfp='https://i.imgur.com/yqNQMRf.jpg'
             name='Iqra Mahmood'
             role='Machine Learning Lead'
             linkedin='https://www.linkedin.com/in/hafiza-iqra-mahmood/'
@@ -147,7 +147,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://i.imgur.com/RSY4sWG.jpg'
+            pfp='https://i.imgur.com/ixpMm3y.jpg'
             name='Nabeel Ahmad'
             role='Competative Programming Lead'
             linkedin='https://www.linkedin.com/in/nabeelahmedjh/'
@@ -156,7 +156,7 @@ const Team = () => {
           />
 
           <TeamCard
-            pfp='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc5_vFR0vaXPqmLRNTAY4dZPuiaodrxK5UuQ&usqp=CAU'
+            pfp='https://i.imgur.com/EWeaadR.jpg'
             name='Eatsam Ul Haq'
             role='Technical Lead'
             linkedin='null'

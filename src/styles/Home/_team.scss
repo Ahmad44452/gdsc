@@ -68,7 +68,7 @@
       font-size: 3.5rem;
       color: rgba(#101010,70%);
       text-align: center;
-      margin: 10rem 0 0 0;
+      margin: 11rem 0 0 0;
     }
 
     &--role{
@@ -76,7 +76,8 @@
       color: rgba(#101010,70%);
       text-align: center;
       font-size: 2.4rem;
-      margin: .5rem 0 2rem 0;
+      margin: .2rem 0 1.5rem 0;
+      // margin: .5rem 0 2rem 0;
     }
 
     &--links{
@@ -97,7 +98,7 @@
       padding: .5rem 2rem .5rem .5rem;
       -webkit-tap-highlight-color: transparent;
       &:not(:last-child){
-        margin-right: 1.5rem;
+        margin-right: .5rem;
       }
 
 

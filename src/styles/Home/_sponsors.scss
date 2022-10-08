@@ -1,13 +1,9 @@
 .sponsors{
   background-color: #f8bb15;
-  padding: 2rem 0;
+  padding: 2rem 0 8rem 0;
+  text-align: center;
   display: flex;
   align-items: center;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-name: ticker;
-  animation-duration: 30s;
-  text-align: center;
 
   &__wrap{
     background-color: #f8bb15;
@@ -35,4 +31,5 @@
     max-width: 25rem;
     margin-right: 10rem;
   }
+  
 }

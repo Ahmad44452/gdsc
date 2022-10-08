@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad65d51a.css",
-    "main.js": "/static/js/main.cc44087c.js",
+    "main.css": "/static/css/main.b9953041.css",
+    "main.js": "/static/js/main.7b705263.js",
     "static/media/GoogleSans-BoldItalic.ttf": "/static/media/GoogleSans-BoldItalic.afe977f432a7522f2c07.ttf",
     "static/media/GoogleSans-Italic.ttf": "/static/media/GoogleSans-Italic.ead46b61d8b984c9a56a.ttf",
     "static/media/GoogleSans-MediumItalic.ttf": "/static/media/GoogleSans-MediumItalic.0f98f085f4815a47cd12.ttf",
     "static/media/GoogleSans-Medium.ttf": "/static/media/GoogleSans-Medium.81067d78370e5509b889.ttf",
     "static/media/GoogleSans-Regular.ttf": "/static/media/GoogleSans-Regular.19c78e33fc3a7243f219.ttf",
     "static/media/GoogleSans-Bold.ttf": "/static/media/GoogleSans-Bold.18cab8ca4b802f600b69.ttf",
+    "static/media/Logo.svg": "/static/media/Logo.aae9e79177d70237099259583200a65a.svg",
     "static/media/communityImg.svg": "/static/media/communityImg.9b1e6a1669a363861c02a22bb07c3e7a.svg",
     "static/media/swagsImg.svg": "/static/media/swagsImg.15f85a35519ac6fda4f793b54c590c2d.svg",
     "static/media/connectImg.svg": "/static/media/connectImg.08681c0d23e14f72f32307a210e1aff3.svg",
@@ -19,11 +20,11 @@
     "index.html": "/index.html",
     "static/media/marker.svg": "/static/media/marker.ff2a86cd31bb26530d9f3ee3c1318cdb.svg",
     "static/media/clock.svg": "/static/media/clock.c5e906e8e83433f15d8a9c1a82973287.svg",
-    "main.ad65d51a.css.map": "/static/css/main.ad65d51a.css.map",
-    "main.cc44087c.js.map": "/static/js/main.cc44087c.js.map"
+    "main.b9953041.css.map": "/static/css/main.b9953041.css.map",
+    "main.7b705263.js.map": "/static/js/main.7b705263.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad65d51a.css",
-    "static/js/main.cc44087c.js"
+    "static/css/main.b9953041.css",
+    "static/js/main.7b705263.js"
   ]
 }

@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 import { NavHashLink } from "react-router-hash-link";
 import useScrollPosition from "../../hooks/useScrollPosition";
 
@@ -7,6 +8,8 @@ import DSCLogo from "../../images/dsclogo.png";
 const Navbar = () => {
 
   const scrollPosition = useScrollPosition();
+
+  const [isNavbarShowing, setNavbarShowing] = useState(false);
 
   return (
     <motion.nav
@@ -19,22 +22,22 @@ const Navbar = () => {
         </NavHashLink>
       </div>
       <div className="navbar__right">
-        <div className='navbar__links'>
-          <NavHashLink smooth replace className="navbar__right--link" to={'/#about'}>
+        <div className={`navbar__links ${isNavbarShowing ? 'navbar__links--show' : ''}`}>
+          <NavHashLink smooth replace className="navbar__right--link" to={'/#about'} onClick={() => setNavbarShowing(false)}>
             <span>About</span>
           </NavHashLink>
-          <NavHashLink smooth replace className="navbar__right--link" to={'/#team'}>
+          <NavHashLink smooth replace className="navbar__right--link" to={'/#team'} onClick={() => setNavbarShowing(false)}>
             <span>Team</span>
           </NavHashLink>
-          <NavHashLink smooth replace className="navbar__right--link" to={'/#events'}>
+          <NavHashLink smooth replace className="navbar__right--link" to={'/#events'} onClick={() => setNavbarShowing(false)}>
             <span>Events</span>
           </NavHashLink>
-          <NavHashLink smooth replace className="navbar__right--link" to={'/#sponsors'}>
+          <NavHashLink smooth replace className="navbar__right--link" to={'/#sponsors'} onClick={() => setNavbarShowing(false)}>
             <span>Sponsors</span>
           </NavHashLink>
         </div>
 
-        <div className='navbar__ham'>
+        <div className={`navbar__ham ${isNavbarShowing ? 'navbar__ham--show' : ''}`} onClick={() => setNavbarShowing(prev => !prev)}>
           <div className='navbar__ham--icon'>&nbsp;</div>
         </div>
       </div>

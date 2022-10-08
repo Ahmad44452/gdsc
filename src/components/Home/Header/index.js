@@ -53,18 +53,18 @@ const Header = () => {
                 ))}
               </motion.div>
               <motion.div className="header__heading--main-2" variants={banner} initial='initial' animate='animate'>
-                {[...'Developers'].map((letter, index) => (
+                {[...'Developer'].map((letter, index) => (
                   <motion.span style={{ display: 'inline-block' }} key={index} variants={letterAnimation}>{letter}</motion.span>
                 ))}
               </motion.div>
               <br />
               <motion.div className="header__heading--main-3" variants={banner} initial='initial' animate='animate'>
-                {[...'Students'].map((letter, index) => (
+                {[...'Student'].map((letter, index) => (
                   <motion.span style={{ display: 'inline-block' }} key={index} variants={letterAnimation}>{letter}</motion.span>
                 ))}
               </motion.div>
               <motion.div className="header__heading--main-4" variants={banner} initial='initial' animate='animate'>
-                {[...'Club'].map((letter, index) => (
+                {[...'Clubs'].map((letter, index) => (
                   <motion.span style={{ display: 'inline-block' }} key={index} variants={letterAnimation}>{letter}</motion.span>
                 ))}
               </motion.div>

@@ -3,6 +3,7 @@ import About from "./About";
 import Team from "./Team";
 import Events from "./Events";
 import Sponsors from './Sponsors';
+import Footer from "./Footer";
 
 const Home = () => {
 
@@ -13,6 +14,7 @@ const Home = () => {
       <Team />
       <Events />
       <Sponsors />
+      <Footer />
     </>
   )
 }

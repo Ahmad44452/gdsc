@@ -1,0 +1,128 @@
+.footer{
+  background-color: #1e1e1e;
+  padding: 15rem 0;
+
+  &__container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  &__image{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 7rem;
+    max-width: 59rem;
+
+    img{
+      width: 100%;
+    }
+  }
+
+  &__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin-left: 7rem;
+  }
+
+  &__heading{
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+
+  &__links{
+    margin-top: 2rem;
+  }
+
+  &__link{
+    transition: all .5s;
+    &:visited,&:link{
+      color: #fff;
+    }
+
+    &:not(:last-child){
+      margin-right: 2rem;
+    }
+
+    svg{
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    &--gmail:hover{
+      color: #ea4335;
+    }
+
+    &--linkedin:hover{
+      color: #0a66c2;
+    }
+
+    &--twitter:hover{
+      color: #1da1f2;
+    }
+
+    &--facebook:hover{
+      color: #1771e6;
+    }
+
+    &--instagram:hover{
+        color: #dc2743;
+      
+    }
+
+    &--whatsapp:hover{
+      color: #37b548;
+    }
+  }
+
+  &__credits{
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  
+}
+
+@media (max-width: 1485px){
+  .footer{
+  
+    &__image{
+      margin-right: 2rem;
+    }
+  
+    &__right{
+      margin-left: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1000px){
+  .footer{
+  
+    padding: 10rem 0;
+
+    &__container{
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+
+    &__image{
+      margin-right: 0;
+      margin-top: 5rem;
+    }
+  
+    &__right{
+      margin-left: 0;
+      text-align: center; 
+    }
+
+    &__links{
+      margin: 2rem 0;
+    }
+  }
+}
