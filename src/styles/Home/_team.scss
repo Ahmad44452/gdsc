@@ -1,15 +1,12 @@
 .team{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   background-color: #666d74;
   // background-color: #f5f5f7;
-  padding: 5rem 0;
+  padding: 5rem 0 15rem 0;
   position: relative;
+  text-align: center;
 
   &__heading{
     display: inline-block;
-    text-align: center;
     font-size: 6rem;
     color: #fff;
     font-weight: 900;
@@ -26,13 +23,7 @@
   }
 
   &__cards{
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
     padding: 2rem;
-    
   }
 
   &__card{

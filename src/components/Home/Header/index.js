@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import BackgroundBG from "../../../images/building-bg.svg";
+import lottie from 'lottie-web';
+import { useEffect, useRef } from 'react';
 
 const banner = {
   animate: {
@@ -25,6 +27,19 @@ const letterAnimation = {
 
 
 const Header = () => {
+
+  const lottieRef = useRef(null);
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: lottieRef.current,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: require('../../../images/networkGlobe.json')
+    })
+  }, [])
+
 
   return (
     <section id="header" className="header">
@@ -71,8 +86,10 @@ const Header = () => {
 
         </div>
 
-        <motion.div className="header__container--right" animate={{ scale: [0, 1] }} transition={{ duration: 1, delay: 2 }}>
-          <div className="header__box">
+        <div className="header__container--right" animate={{ scale: [0, 1] }} transition={{ duration: 1, delay: 2 }}>
+          <div className='header__box' ref={lottieRef}>&nbsp;</div>
+          {/* <iframe src="https://embed.lottiefiles.com/animation/109382"></iframe> */}
+          {/* <div className="header__box">
             <div className="header__box--image">
               <svg width="604" height="522" viewBox="0 0 604 522" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_36_2)">
@@ -106,8 +123,8 @@ const Header = () => {
                 </defs>
               </svg>
             </div>
-          </div>
-        </motion.div>
+          </div> */}
+        </div>
       </div>
     </section >
   )

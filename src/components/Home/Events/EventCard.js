@@ -1,10 +1,26 @@
-import CalendarImg from '../images/events/calendar.svg';
-import ClockImg from '../images/events/clock.svg';
-import MarkerImg from '../images/events/marker.svg';
+import CalendarImg from '../../../images/events/calendar.svg';
+import ClockImg from '../../../images/events/clock.svg';
+import MarkerImg from '../../../images/events/marker.svg';
+import { motion } from 'framer-motion';
+
+const cardAnimation = {
+  initial: {
+    opacity: 0,
+    x: -100
+  },
+  animate: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      ease: [0.2, 0.6, 0.51, 1],
+      duration: .5
+    }
+  }
+}
 
 const EventCard = () => {
   return (
-    <div className="events__card">
+    <motion.div className="events__card" variants={cardAnimation}>
       <div className="events__card--img">
         <img src="https://i.imgur.com/cO7Dhvx.png" alt="event one" />
       </div>
@@ -40,7 +56,7 @@ const EventCard = () => {
       <a href='https://www.google.com' target='_blank' rel='noreferrer' className='events__card--button'>
         Register now
       </a>
-    </div>
+    </motion.div>
   )
 }
 

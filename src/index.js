@@ -17,7 +17,5 @@ import './styles/main.scss';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <SiteRoutes />
-  </React.StrictMode>
+  <SiteRoutes />
 );

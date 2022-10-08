@@ -1,15 +1,11 @@
 .events{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  // background-color: #1e1e1e;
-  // background-color: #4285f4;
   padding: 5rem 0;
   background-color: #f4f4f4;
+  text-align: center;
 
   &__heading{
     display: inline-block;
-    text-align: center;
     font-size: 6rem;
     color: #666D74;
     font-weight: 900;
@@ -137,6 +133,7 @@
       color: rgba(#101010,0.7);
       padding-bottom: 1rem;
       position: relative;
+      text-align: left;
 
       &::after{
         content: '';
