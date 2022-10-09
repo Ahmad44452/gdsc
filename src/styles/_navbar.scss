@@ -198,3 +198,10 @@
     }
   }
 }
+
+@media (max-width: 390px){
+  .navbar{
+    position: sticky;
+    top: 0;
+  }
+}

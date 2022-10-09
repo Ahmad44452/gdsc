@@ -146,3 +146,12 @@
   }
 }
 
+@media (max-width: 375px){
+  .header{
+    &__heading{
+      &--main{
+        font-size: 6.5rem;
+      }
+    }
+  }
+}
