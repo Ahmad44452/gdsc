@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
-import lottie from 'lottie-web';
-import { useEffect, useRef } from 'react';
+import networkGlobe from '../../../images/networkGlobe.gif';
 
 const banner = {
   animate: {
@@ -26,19 +25,6 @@ const letterAnimation = {
 
 
 const Header = () => {
-
-  const lottieRef = useRef(null);
-
-  useEffect(() => {
-    lottie.loadAnimation({
-      container: lottieRef.current,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: require('../../../images/networkGlobe.json')
-    })
-  }, [])
-
 
   return (
     <section id="header" className="header">
@@ -82,9 +68,9 @@ const Header = () => {
         </div>
 
         <motion.div className="header__container--right">
-          <motion.div className='header__box' ref={lottieRef}
+          <motion.div className='header__box'
             initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ duration: 1, delay: 2 }}>
-            &nbsp;
+            <img src={networkGlobe} />
           </motion.div>
         </motion.div>
       </div>
