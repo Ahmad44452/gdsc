@@ -1,3 +1,5 @@
+import FooterLogo from '../../../images/Logo.svg';
+
 import { SiGmail, SiLinkedin, SiTwitter, SiFacebook, SiInstagram, SiWhatsapp } from 'react-icons/si';
 
 const Footer = () => {
@@ -5,7 +7,7 @@ const Footer = () => {
     <section className="footer">
       <div className="footer__container">
         <div className='footer__image'>
-          <img src='./images/Logo.svg' alt="GDSC COMSATS LOGO" />
+          <img src={FooterLogo} alt="GDSC COMSATS LOGO" />
         </div>
         <div className='footer__right'>
           <div>

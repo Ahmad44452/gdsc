@@ -1,22 +1,32 @@
 import EventCard from "./EventCard";
+import { motion } from 'framer-motion';
+
+const parentAnim = {
+  animate: {
+    transition: {
+      // delayChildren: 0.4,
+      staggerChildren: 0.2
+    }
+  }
+}
 
 const Events = () => {
 
   return (
     <section id='events' className="events">
-      <h1 className="events__heading">
+      <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, amount: .7 }} transition={{ duration: 1 }} className="events__heading">
         Events
-      </h1>
+      </motion.h1>
 
-      <div className="events__cards">
-
-        <EventCard />
+      <motion.div className="events__cards" variants={parentAnim} initial="initial" whileInView="animate" viewport={{ once: true, amount: 0.1 }}>
 
         <EventCard />
 
         <EventCard />
 
-      </div>
+        <EventCard />
+
+      </motion.div>
 
     </section>
   )

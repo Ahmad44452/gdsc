@@ -1,6 +1,27 @@
+import CalendarImg from '../../../images/events/calendar.svg';
+import ClockImg from '../../../images/events/clock.svg';
+import MarkerImg from '../../../images/events/marker.svg';
+import { motion } from 'framer-motion';
+
+
+const cardAnimation = {
+  initial: {
+    opacity: 0,
+    x: -100
+  },
+  animate: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      ease: [0.2, 0.6, 0.51, 1],
+      duration: .5
+    }
+  }
+}
+
 const EventCard = () => {
   return (
-    <div className="events__card">
+    <motion.div className="events__card" variants={cardAnimation}>
       <div className="events__card--img">
         <img src="https://i.imgur.com/cO7Dhvx.png" alt="event one" />
       </div>
@@ -8,18 +29,18 @@ const EventCard = () => {
       <div className="events__card--info">
         <div className='events__card--info-up'>
           <div className='events__card--date'>
-            <img src='./images/events/calendar.svg' alt="calendar" />
+            <img src={CalendarImg} alt="calendar" />
             <span>October 20, 2022</span>
           </div>
 
           <div className='events__card--time'>
-            <img src='./images/events/clock.svg' alt="clock" />
+            <img src={ClockImg} alt="clock" />
             <span>12:40 PM — 01:40 PM</span>
           </div>
         </div>
         <div className='events__card--info-down'>
           <div className='events__card--location'>
-            <img src='./images/events/marker.svg' alt="marker" />
+            <img src={MarkerImg} alt="marker" />
             <span>Auditorium, 1st floor, A-block, Sahiwal Campus, CUI</span>
           </div>
         </div>
@@ -36,7 +57,7 @@ const EventCard = () => {
       <button className='events__card--button'>
         Register
       </button>
-    </div>
+    </motion.div>
   )
 }
 

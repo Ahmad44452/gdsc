@@ -1,16 +1,33 @@
 import TeamCard from "./TeamCard";
+import { motion } from 'framer-motion';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+
+
+export const cardAnimation = {
+  initial: {
+    opacity: 0,
+    y: 300
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      ease: [0.2, 0.6, 0.51, 1],
+      duration: 1
+    }
+  }
+}
 
 
 const Team = () => {
   return (
     <section id="team" className="team">
-      <h1 className="team__heading">
+      <motion.h1 className="team__heading" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, amount: .7 }} transition={{ duration: 1 }}>
         Core Team
-      </h1>
+      </motion.h1>
 
-      <div className="team__cards">
+      <motion.div className="team__cards" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true, amount: .7 }} transition={{ duration: 1 }}>
         <Carousel
           additionalTransfrom={0}
           arrows
@@ -148,7 +165,7 @@ const Team = () => {
           />
 
         </Carousel>
-      </div>
+      </motion.div>
     </section>
   )
 }
